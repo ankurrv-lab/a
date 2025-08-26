@@ -178,6 +178,9 @@ async def run_ollama_model(model: str, prompt: str, typing_cb=None):
 
 
 def write_redirect_index(url, repo='.'):
+    logger.debug(f"write_redirect_index")
+    logger.debug(url)
+    logger.debug(repo)
     content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -235,7 +238,7 @@ def run_cloudflared():
                 cloudflare_url = url_candidate
                 logger.info(f"URL with 'trycloud' detected: {cloudflare_url}")
                 #webbrowser.open(cloudflare_public_url)
-                write_github_redirect_index(cloudflare_public_url)
+                write_redirect_index(cloudflare_public_url)
                 git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
             # further processing here
             else:
@@ -259,7 +262,7 @@ def run_cloudflared():
                 cloudflare_public_url = url_candidate
                 logger.info(f"Cloudflare public URL extracted: {cloudflare_public_url}")
                 webbrowser.open(cloudflare_public_url)
-                write_github_redirect_index(cloudflare_public_url)
+                write_redirect_index(cloudflare_public_url)
                 git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
     proc.wait()
 
