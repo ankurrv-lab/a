@@ -215,6 +215,8 @@ def run_cloudflared():
     import threading
     import webbrowser
     global cloudflare_public_url
+    logger.info("write_redirect_index(cloudflare_public_url)")
+    write_redirect_index(cloudflare_public_url)
     logger.info("git_commit_push")
     git_commit_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
     cmd = ["cloudflared", "tunnel", "--url", "http://localhost:8000", "--protocol", "http2"]
@@ -232,7 +234,6 @@ def run_cloudflared():
                     cloudflare_public_url = p
                     logger.info(f"Cloudflare URL detected: {cloudflare_public_url}")
                     webbrowser.open(cloudflare_public_url)
-                    write_redirect_index(cloudflare_public_url)
     proc.wait()
 
 
