@@ -228,17 +228,16 @@ def run_cloudflared():
     for line in proc.stdout:
         line = line.strip()
         logger.info(f"Cloudflared: {line}")
-        if "Visit" in line and not cloudflare_public_url:
-            logger.info(f"inside if Visit in line and not cloudflare_public_url:")
-            parts = line.split("Visit")
-            for p in parts:
-                logger.info(f"for p in parts:")
-                p = p.strip(" :")
-                if p.startswith("http"):
-                    logger.info(f"if p.startswith(http):")
-                    cloudflare_public_url = p
-                    logger.info(f"Cloudflare URL detected: {cloudflare_public_url}")
-                    webbrowser.open(cloudflare_public_url)
+        if not cloudflare_public_url and "Visit it at" in line:
+            # Use regex to find https URL inside square brackets
+            matches = re.findall(r"\[(https?://[^\]]+)\]", line)
+            if matches:
+                url_candidate = matches[0]
+                cloudflare_public_url = url_candidate
+                logger.info(f"Cloudflare public URL extracted: {cloudflare_public_url}")
+                webbrowser.open(cloudflare_public_url)
+                write_github_redirect_index(cloudflare_public_url)
+                git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
     proc.wait()
 
 
