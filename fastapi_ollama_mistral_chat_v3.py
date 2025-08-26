@@ -226,7 +226,9 @@ def run_cloudflared():
                             text=True, encoding="utf-8", bufsize=1)
 
     for line in proc.stdout:
+        logger.info(line)
         line = line.strip()
+        logger.info(line)
         logger.info(f"Cloudflared: {line}")
         if not cloudflare_public_url and "Visit it at" in line:
             # Use regex to find https URL inside square brackets
