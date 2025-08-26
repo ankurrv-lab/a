@@ -234,7 +234,7 @@ def run_cloudflared():
             if "trycloud" in url_candidate:
                 cloudflare_url = url_candidate
                 logger.info(f"URL with 'trycloud' detected: {cloudflare_url}")
-                webbrowser.open(cloudflare_public_url)
+                #webbrowser.open(cloudflare_public_url)
                 write_github_redirect_index(cloudflare_public_url)
                 git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
             # further processing here
