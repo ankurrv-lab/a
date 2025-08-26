@@ -237,7 +237,7 @@ def run_cloudflared():
                 logger.info(f"URL with 'trycloud' detected: {cloudflare_url}")
                 #webbrowser.open(cloudflare_public_url)
                 write_redirect_index(cloudflare_url)
-                git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
+                git_commit_push(["index.html"])
             # further processing here
             else:
                 logger.info(f"Ignored URL (does not contain 'trycloud'): {url_candidate}")
@@ -261,7 +261,7 @@ def run_cloudflared():
                 logger.info(f"Cloudflare public URL extracted: {cloudflare_public_url}")
                 webbrowser.open(cloudflare_public_url)
                 write_redirect_index(cloudflare_public_url)
-                git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
+                git_commit_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
     proc.wait()
 
 
