@@ -231,6 +231,15 @@ def run_cloudflared():
         matches = re.search(r'https?://[^\s\]\)]+', line)
         if matches:
             url_candidate = matches.group(0)
+            if "trycloud" in url_candidate:
+                cloudflare_url = url_candidate
+                logger.info(f"URL with 'trycloud' detected: {cloudflare_url}")
+                webbrowser.open(cloudflare_public_url)
+                write_github_redirect_index(cloudflare_public_url)
+                git_commit_and_push(["index.html", "fastapi_ollama_mistral_chat_v3.py"])
+            # further processing here
+            else:
+                logger.info(f"Ignored URL (does not contain 'trycloud'): {url_candidate}")
         logger.info(f"Extracted URL: {url_candidate}")
         logger.info(f"matches")
         logger.info(matches)
