@@ -226,13 +226,16 @@ def run_cloudflared():
                             text=True, encoding="utf-8", bufsize=1)
 
     for line in proc.stdout:
+        logger.info(f"line")
+        matches = re.findall(r"\[([^\]]+)\]\([^)]+\)", line)
         logger.info(line)
         line = line.strip()
+        logger.info(f"linestrip")
         logger.info(line)
         logger.info(f"Cloudflared: {line}")
         if not cloudflare_public_url and "Visit it at" in line:
             # Use regex to find https URL inside square brackets
-            matches = re.findall(r"\[([^\]]+)\]\([^)]+\)", line)
+            #matches = re.findall(r"\[([^\]]+)\]\([^)]+\)", line)
             logger.info(f"if not cloudflare_public_url ")
             logger.info(line)
             logger.info(matches)
