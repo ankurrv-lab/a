@@ -231,7 +231,9 @@ def run_cloudflared():
         if not cloudflare_public_url and "Visit it at" in line:
             # Use regex to find https URL inside square brackets
             matches = re.findall(r"\[(https?://[^\]]+)\]", line)
+            logger.info(f"if not cloudflare_public_url ")
             if matches:
+                logger.info(f"if matches:")
                 url_candidate = matches[0]
                 cloudflare_public_url = url_candidate
                 logger.info(f"Cloudflare public URL extracted: {cloudflare_public_url}")
