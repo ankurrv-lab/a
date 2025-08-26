@@ -228,7 +228,7 @@ def run_cloudflared():
     for line in proc.stdout:
         logger.info(f"line")
         logger.info(line)
-        matches = re.findall(r"\[([^\]]+)\]\([^)]+\)", line)
+        matches = re.search(r'https?://[^\s\]\)]+', line)
         logger.info(f"matches")
         logger.info(matches)
         line = line.strip()
