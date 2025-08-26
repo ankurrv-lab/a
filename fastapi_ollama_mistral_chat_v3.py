@@ -198,6 +198,8 @@ def write_redirect_index(url, repo='.'):
 
 def git_commit_push(files, repo='.'):
     try:
+        logger.info("Running git pull")
+        subprocess.run(["git", "pull"], cwd=repo, check=True)
         logger.info(f"Running git add for: {files}")
         subprocess.run(["git", "add"] + files, cwd=repo, check=True)
         import datetime
