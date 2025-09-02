@@ -1,11 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>Redirecting...</title>
-<meta http-equiv="refresh" content="0; url=https://lt-main-wedding-collectibles.trycloudflare.com" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unika Housing Society</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #f9fafb;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+    }
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      user-select: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #18bc9c;
+    }
+    main {
+      max-width: 1000px;
+      margin: 6rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+    section {
+      margin-bottom: 4rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #18bc9c;
+      padding-left: 0.75rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25rem;
+    }
+    p {
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+      text-align: center;
+      color: #555;
+    }
+    .videos-embed {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 1.5rem;
+      justify-items: center;
+      margin-top: 1rem;
+    }
+    .video-item iframe {
+      width: 100%;
+      height: 180px;
+      border-radius: 6px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background: black;
+    }
+    .video-title {
+      margin-top: 0.5rem;
+      font-weight: 600;
+      color: #34495e;
+      text-align: center;
+    }
+    .media-index ul {
+      padding-left: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+      list-style-type: disc;
+      color: #2c3e50;
+    }
+    .media-index a {
+      color: #18bc9c;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    .media-index a:hover,
+    .media-index a:focus {
+      color: #12875a;
+      outline: none;
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .video-item iframe {
+        height: 160px;
+      }
+    }
+  </style>
 </head>
 <body>
-<a href="https://lt-main-wedding-collectibles.trycloudflare.com">Redirecting to https://lt-main-wedding-collectibles.trycloudflare.com</a>
+
+<header>
+  <nav>
+    <div class="logo">Unika Society</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#featured-videos">Featured Videos</a>
+      <a href="#media-index">Indexed Media</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h1>Welcome to Unika Housing Society</h1>
+    <p>Your community, your home. Explore our collection of event videos and photo galleries capturing the vibrant life at Unika.</p>
+  </section>
+
+  <section id="featured-videos">
+    <h2>Featured Community Videos</h2>
+    <div class="videos-embed">
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/DzS30Vb8BEg" title="Purple Day 7" loading="lazy" allowfullscreen></iframe>
+        <div class="video-title">Purple Day 7</div>
+      </div>
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/AMUEA3s5UNo" title="Additional Community Video" loading="lazy" allowfullscreen></iframe>
+        <div class="video-title">Additional Community Video</div>
+      </div>
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/_jC-SIRpsD0" title="Additional Video 2" loading="lazy" allowfullscreen></iframe>
+        <div class="video-title">Additional Video 2</div>
+      </div>
+      <!-- Add more featured videos as needed -->
+    </div>
+  </section>
+
+  <section id="media-index" class="media-index">
+    <h2>Indexed Videos & Photo Folders</h2>
+  
+    <h3>Purple Day 7</h3>
+    <ul>
+      <li>🎥 <a href="https://youtu.be/DzS30Vb8BEg?si=4mu51GO258X8nip1" target="_blank" rel="noopener noreferrer">Purple Day 7 Video</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1st4hpk_iJ1VNTeQp5s_ZG1D5BGtniO6q" target="_blank" rel="noopener noreferrer">Purple Day 7 Photos</a></li>
+    </ul>
+
+    <h3>Day 6</h3>
+    <ul>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1YfXrZqWIM_ev-TzL0tq_W2e4Ya5SeLBY" target="_blank" rel="noopener noreferrer">Day 6 Photos</a></li>
+    </ul>
+
+    <h3>Day 5</h3>
+    <ul>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1bQN8zzngSZzC48pR-J_vGlZprHdk_84H" target="_blank" rel="noopener noreferrer">Day 5 Photos</a></li>
+    </ul>
+
+    <h3>Day 4</h3>
+    <ul>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1ufckYtTnRJfywkrQ1li6kTL4VzpGUNlL" target="_blank" rel="noopener noreferrer">Day 4 Photos</a></li>
+      <li>🎥 <a href="https://youtu.be/AWtFzAvBAmU?si=eiPoTK5bDLIlhiBw" target="_blank" rel="noopener noreferrer">Day 4 Evening Games Full Video</a></li>
+    </ul>
+
+    <h3>Day 3</h3>
+    <ul>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1IlL_hNoBVwDnKXJDq5UhbfjCmRzKYHkC" target="_blank" rel="noopener noreferrer">Day 3 Photos Set 1</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1_Mtw-MtFur0FOGvoeuxAyzbGcBSJpwEU" target="_blank" rel="noopener noreferrer">Day 3 Photos Set 2</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1EYQ7ZTrTWknGlmr5O_IPH_PcrH2Uevj2" target="_blank" rel="noopener noreferrer">Day 3 Photos Set 3</a></li>
+    </ul>
+
+    <h3>Day 1</h3>
+    <ul>
+      <li>📷 <a href="https://drive.google.com/drive/folders/19TpDp4AMXrv2RhFDxEylSNPk3wX_0ueJ" target="_blank" rel="noopener noreferrer">Day 1 Photos Set 1</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1z8bh1H3lLZGLamF_ybQApjBN0fyBVPpm" target="_blank" rel="noopener noreferrer">Day 1 Photos Set 2</a></li>
+    </ul>
+  
+    <h3>Additional Videos</h3>
+    <ul>
+      <li>🎥 <a href="https://youtu.be/AMUEA3s5UNo?si=Hwp5J0EsmTGeYCP7" target="_blank" rel="noopener noreferrer">Additional Video 1</a></li>
+      <li>🎥 <a href="https://youtu.be/_jC-SIRpsD0?si=xZvTFGBvxI4VcJyJ" target="_blank" rel="noopener noreferrer">Additional Video 2</a></li>
+      <li>🎥 <a href="https://youtu.be/3bZ-pjyz1dI?si=zl6in2MObS4rscdX" target="_blank" rel="noopener noreferrer">Additional Video 3</a></li>
+      <li>🎥 <a href="https://youtu.be/1GIVDZVZ6MU?si=L7aXtTsi5PK8UPr2" target="_blank" rel="noopener noreferrer">Additional Video 4</a></li>
+      <li>🎥 <a href="https://youtu.be/qWDQzYDqNIw?si=Ne2_v-CIU3MLE0KR" target="_blank" rel="noopener noreferrer">Additional Video 5</a></li>
+    </ul>
+  
+    <h3>Special Events</h3>
+    <ul>
+      <li>🎥 <a href="https://youtu.be/F6tJ04NBbcU?si=ng_xFs1jm80zf_Av" target="_blank" rel="noopener noreferrer">Aug 27th 2025 Event Video</a></li>
+      <li>🎥 <a href="https://youtu.be/ABmNSpv51g8?si=6HAsihuaTupiRxY_" target="_blank" rel="noopener noreferrer">15th Aug 2025 Event Video</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1UW26hrSCCn5L_1rlDPcB2WFMOi5z9GOX" target="_blank" rel="noopener noreferrer">15th Aug 2025 Photos Set 1</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/12q3pK5ONQjhBIEfp58ti5VxKL42XH999" target="_blank" rel="noopener noreferrer">15th Aug 2025 Photos Set 2</a></li>
+      <li>🎥 <a href="https://youtu.be/TasomD1aKCQ?si=S5of8pjaFhd82EjN" target="_blank" rel="noopener noreferrer">Holi 14 Mar 2025 Video</a></li>
+      <li>📷 <a href="https://drive.google.com/drive/folders/1WiZiZNCOqSTAELzl47iblejYPz0yYRaz" target="_blank" rel="noopener noreferrer">Holi 14 Mar 2025 Photos</a></li>
+      <li>🎥 <a href="https://youtu.be/ncIraPMjBr0?si=SMVhLNMug3grHFAk" target="_blank" rel="noopener noreferrer">76th Republic Day Video</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Info</h2>
+    <p>For inquiries or community updates, please contact the Unika Society management office.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Unika Housing Society. All rights reserved.
+</footer>
+
 </body>
 </html>
