@@ -1,0 +1,224 @@
+// YouTube video metadata - Generated on 2025-09-05 11:21:15
+const videoMetadata = [
+  {
+    "title": "5 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "0",
+    "duration": "0",
+    "thumbnail": "https://img.youtube.com/vi/m9C-BkvTY7Q/maxresdefault.jpg",
+    "url": "https://youtu.be/m9C-BkvTY7Q",
+    "video_id": "m9C-BkvTY7Q",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:18.054597"
+  },
+  {
+    "title": "4 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "4",
+    "duration": "8463",
+    "thumbnail": "https://img.youtube.com/vi/GmpDN48JYn4/maxresdefault.jpg",
+    "url": "https://youtu.be/GmpDN48JYn4",
+    "video_id": "GmpDN48JYn4",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:21.425956"
+  },
+  {
+    "title": "4 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "46",
+    "duration": "362",
+    "thumbnail": "https://img.youtube.com/vi/dZZsAsRCDhU/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=dZZsAsRCDhU",
+    "video_id": "dZZsAsRCDhU",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:24.372917"
+  },
+  {
+    "title": "3 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "8",
+    "duration": "28",
+    "thumbnail": "https://img.youtube.com/vi/Bs13pcCDPV8/maxresdefault.jpg",
+    "url": "https://youtu.be/Bs13pcCDPV8",
+    "video_id": "Bs13pcCDPV8",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:27.783544"
+  },
+  {
+    "title": "3 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "0",
+    "duration": "1374",
+    "thumbnail": "https://img.youtube.com/vi/NMDpQtJWbMw/maxresdefault.jpg",
+    "url": "https://youtu.be/NMDpQtJWbMw",
+    "video_id": "NMDpQtJWbMw",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:31.100760"
+  },
+  {
+    "title": "2 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "0",
+    "duration": "68",
+    "thumbnail": "https://img.youtube.com/vi/ATB3sCiGmWc/maxresdefault.jpg",
+    "url": "https://youtu.be/ATB3sCiGmWc",
+    "video_id": "ATB3sCiGmWc",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:34.642617"
+  },
+  {
+    "title": "2 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "1",
+    "duration": "1095",
+    "thumbnail": "https://img.youtube.com/vi/I3_6kmCxVYQ/maxresdefault.jpg",
+    "url": "https://youtu.be/I3_6kmCxVYQ",
+    "video_id": "I3_6kmCxVYQ",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:37.995493"
+  },
+  {
+    "title": "2 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "27",
+    "duration": "11",
+    "thumbnail": "https://img.youtube.com/vi/DzS30Vb8BEg/maxresdefault.jpg",
+    "url": "https://youtu.be/DzS30Vb8BEg",
+    "video_id": "DzS30Vb8BEg",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:41.509376"
+  },
+  {
+    "title": "2 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "6",
+    "duration": "426",
+    "thumbnail": "https://img.youtube.com/vi/AMUEA3s5UNo/maxresdefault.jpg",
+    "url": "https://youtu.be/AMUEA3s5UNo",
+    "video_id": "AMUEA3s5UNo",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:44.952458"
+  },
+  {
+    "title": "1 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "18",
+    "duration": "188",
+    "thumbnail": "https://img.youtube.com/vi/_jC-SIRpsD0/maxresdefault.jpg",
+    "url": "https://youtu.be/_jC-SIRpsD0",
+    "video_id": "_jC-SIRpsD0",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:48.575822"
+  },
+  {
+    "title": "1 September 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "4",
+    "duration": "48",
+    "thumbnail": "https://img.youtube.com/vi/3bZ-pjyz1dI/maxresdefault.jpg",
+    "url": "https://youtu.be/3bZ-pjyz1dI",
+    "video_id": "3bZ-pjyz1dI",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:52.065744"
+  },
+  {
+    "title": "31 August 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "22",
+    "duration": "644",
+    "thumbnail": "https://img.youtube.com/vi/1GIVDZVZ6MU/maxresdefault.jpg",
+    "url": "https://youtu.be/1GIVDZVZ6MU",
+    "video_id": "1GIVDZVZ6MU",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:55.366129"
+  },
+  {
+    "title": "31 August 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "9",
+    "duration": "767",
+    "thumbnail": "https://img.youtube.com/vi/qWDQzYDqNIw/maxresdefault.jpg",
+    "url": "https://youtu.be/qWDQzYDqNIw",
+    "video_id": "qWDQzYDqNIw",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:20:58.805567"
+  },
+  {
+    "title": "31 August 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "15",
+    "duration": "5272",
+    "thumbnail": "https://img.youtube.com/vi/AWtFzAvBAmU/maxresdefault.jpg",
+    "url": "https://youtu.be/AWtFzAvBAmU",
+    "video_id": "AWtFzAvBAmU",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:21:02.235394"
+  },
+  {
+    "title": "28 August 2025",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "17",
+    "duration": "3474",
+    "thumbnail": "https://img.youtube.com/vi/F6tJ04NBbcU/maxresdefault.jpg",
+    "url": "https://youtu.be/F6tJ04NBbcU",
+    "video_id": "F6tJ04NBbcU",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:21:05.709258"
+  },
+  {
+    "title": "Unika15aug2025friday",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "88",
+    "duration": "4640",
+    "thumbnail": "https://img.youtube.com/vi/ABmNSpv51g8/maxresdefault.jpg",
+    "url": "https://youtu.be/ABmNSpv51g8",
+    "video_id": "ABmNSpv51g8",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:21:08.987603"
+  },
+  {
+    "title": "HoliFriday14thMarch2025unikaDreamsAryanhadapsarcelebrationallphotosvidoess",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "86",
+    "duration": "2299",
+    "thumbnail": "https://img.youtube.com/vi/TasomD1aKCQ/maxresdefault.jpg",
+    "url": "https://youtu.be/TasomD1aKCQ",
+    "video_id": "TasomD1aKCQ",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:21:12.374940"
+  },
+  {
+    "title": "76th Republic Day celebration Unika Hadapsar",
+    "description": "",
+    "channel": "Dr. Ankur Rajan Verma",
+    "view_count": "134",
+    "duration": "4630",
+    "thumbnail": "https://img.youtube.com/vi/ncIraPMjBr0/maxresdefault.jpg",
+    "url": "https://youtu.be/ncIraPMjBr0",
+    "video_id": "ncIraPMjBr0",
+    "extraction_method": "web_scraping",
+    "extracted_at": "2025-09-05T11:21:15.792521"
+  }
+];
+
+// Export for use in website
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = videoMetadata;
+}
