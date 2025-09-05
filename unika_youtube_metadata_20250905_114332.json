@@ -1,7 +1,4 @@
-// YouTube video metadata - Generated on 2025-09-05 11:43:32
-// This file contains metadata for all Unika Housing Society videos
-
-const videoMetadata = [
+[
   {
     "title": "5 September 2025",
     "description": "",
@@ -200,14 +197,4 @@ const videoMetadata = [
     "extraction_method": "web_scraping",
     "extracted_at": "2025-09-05T11:43:32.908920"
   }
-];
-
-// Make it available globally
-window.videoMetadata = videoMetadata;
-
-// Export for CommonJS if available
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = videoMetadata;
-}
-
-console.log('Video metadata loaded: ' + videoMetadata.length + ' videos');
+]
